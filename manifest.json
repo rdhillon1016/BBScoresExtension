@@ -1,0 +1,27 @@
+{
+    "name": "NBA Scoreboard App",
+    "description" : "Extension to see live scores",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+    "permissions": ["http://data.nba.net/*"],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+          "16": "ball_16.png",
+          "32": "ball_32.png",
+          "48": "ball_48.png",
+          "128": "ball_128.png"
+        },
+        "default_title": "Basketball ScoreApp"
+    },
+    "icons": {
+      "16": "ball_16.png",
+      "32": "ball_32.png",
+      "48": "ball_48.png",
+      "128": "ball_128.png"
+    }
+}

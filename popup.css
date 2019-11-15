@@ -1,0 +1,107 @@
+body {
+    width: 50vh;
+    height: 100vh;
+    background-color: #403f3f;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    border-radius: 10px;
+    background-color: #1C1C1C;
+    width: 250px;
+    height: 35px;
+    line-height: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: thin;
+    border-color: burlywood;
+    font-size: small;
+}
+
+#date {
+    align-content: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#leftgame, #rightgame {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: burlywood;
+    background: #1C1C1C;
+    padding: 20px;
+    width: 100px;
+    height: 79px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 4px;
+    margin-right: 2px;
+    float: left;
+}
+
+#rightgame {
+    margin-left: 2px;
+    margin-right: 4px;
+    float: right;
+}
+#leftgame {
+    margin-left: 4px;
+    margin-right: 2px;
+    float: left;
+}
+
+#teambox {
+    width: 100px;
+    height: 25px;
+}
+
+#teamscore {
+    height: 25px;
+    width: 30px;
+    margin-right: 10px;
+    text-align: center;
+    float: right;
+    font-size: 19px;
+    line-height: 3px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+#winningteamscore {
+    height: 25px;
+    width: 30px;
+    margin-right: 10px;
+    color: #42ad38;
+    text-align: center;
+    float: right;
+    font-size: 19px;
+    line-height: 3px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+#teamname {
+    height: 25px;
+    width: 30px;
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+    font-size: 19px;
+    line-height: 3px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+#time {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    float: right;
+    font-size: 15px;
+    line-height: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+

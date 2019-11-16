@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
 body {
-    width: 50vh;
+    width: 0vh;
     height: 100vh;
     background-color: #403f3f;
     color:white;
@@ -7,7 +8,7 @@ body {
 }
 
 #header {
-    border-radius: 10px;
+    border-radius: 1px;
     background-color: #1C1C1C;
     width: 250px;
     height: 35px;
@@ -23,85 +24,64 @@ body {
 
 #date {
     align-content: auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Baloo Bhai', cursive,Georgia, 'Times New Roman', Times, serif;
 }
 
-#leftgame, #rightgame {
-    border-radius: 10px;
+#game{
+    width: 250px;
+    height: 60px;
     border-style: solid;
     border-width: thin;
-    border-color: burlywood;
-    background: #1C1C1C;
-    padding: 20px;
-    width: 100px;
-    height: 79px;
+
     margin-top: 10px;
+}
+#homeTeam{
+    float: left;
+    width: 75px ;
+    height: 60px;
+    border-width: thin;
+    border-style: solid;
+}
+#homePic{
+    text-align: left;
+
+}
+#homeScore{
+    float: right;
     text-align: center;
-    margin-left: 4px;
-    margin-right: 2px;
+    vertical-align: text-top;
+
+}
+#HometeamName{
+    text-align: left;
     float: left;
 }
-
-#rightgame {
-    margin-left: 2px;
-    margin-right: 4px;
+#awayTeam{
     float: right;
+    width: 75px ;
+    height: 60px;
+    border-width: thin;
+    border-style: solid;
 }
-#leftgame {
-    margin-left: 4px;
-    margin-right: 2px;
-    float: left;
-}
+#awayPic{
+    text-align: right;
 
-#teambox {
-    width: 100px;
-    height: 25px;
 }
-
-#teamscore {
-    height: 25px;
-    width: 30px;
-    margin-right: 10px;
-    text-align: center;
-    float: right;
-    font-size: 19px;
-    line-height: 3px;
-    margin-top: 0px;
-    margin-bottom: 2px;
-}
-#winningteamscore {
-    height: 25px;
-    width: 30px;
-    margin-right: 10px;
-    color: #42ad38;
-    text-align: center;
-    float: right;
-    font-size: 19px;
-    line-height: 3px;
-    margin-top: 0px;
-    margin-bottom: 2px;
-}
-#teamname {
-    height: 25px;
-    width: 30px;
-    margin-left: 10px;
+#awayScore{
     float: left;
     text-align: center;
-    font-size: 19px;
-    line-height: 3px;
-    margin-top: 0px;
-    margin-bottom: 2px;
-}
-#time {
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 80px;
-    height: 25px;
-    text-align: center;
-    float: right;
-    font-size: 15px;
-    line-height: 5px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
+    line-height: 30px;
+    height: 60px;
+    width: 30px;
+    border-style: solid;
 
+}
+#AwayteamName{
+    text-align: right;
+    float: right;
+}
+#shared{
+    float: middle;
+    text-align: center;
+    font-size: small;
+}

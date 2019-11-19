@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
 body {
     align-content: auto;
-    background-color: #403f3f;
+    background-image: url("teamImages/bballCourt.jpg");
+    background-position: center;
+    background-size: cover;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     float: left; 
@@ -18,13 +20,13 @@ body {
     border-width: thin;
     border-color: burlywood;
     font-size: small;
+    margin-bottom: 10px;
 }
 
 #date {
     align-content: auto;
     font-family: 'Baloo Bhai', cursive,Georgia, 'Times New Roman', Times, serif;
 }
-
 #homeTeam{
     float: left;
     width: 110px ;
@@ -35,15 +37,18 @@ body {
 
 }
 #homeScore{
-    line-height: 0;
+    line-height: 0px;
     float: right;
     font-size: xx-large;
+    position: relative;
+    bottom: 7px;
     
 
 }
 #HometeamName{
     text-align: left;
     float: left;
+    font-size: large;
 }
 #awayTeam{
     float: right;
@@ -59,55 +64,41 @@ body {
     float: left;
     font-size: xx-large;
     padding-bottom: 100px;
+    position: relative;
+    bottom: 7px;
+    left: 0px;
 
 }
 #AwayteamName{
     text-align: right;
     float: right;
+    font-size: large;
 }
 #shared{
     padding-top: 10px;
     text-align: center;
     font-size: large;
 }
-#game{
-    float: middle; 
-    border-radius: 15px;
-    float: middle;
-
-    padding: 4px;
-    width: 300px;
-    height: 60px;
-    border-style: solid;
-    border-width: medium;
-    margin-top: 10px;
+#boxes{
+    float:left; 
+    text-align: left;
 }
-#game2{
-    float: middle; 
-    border-radius: 15px;
-    position: relative;
-    left: 0px;
-    top:5px; 
-    padding: 4px;
-    width: 300px;
-    height: 60px;
-    border-style: solid;
-    border-width: medium;
-    margin-top: 10px;
+.gameBox{
 
-}
-#game3{
+    position: relative;
     float: middle; 
     border-radius: 15px;
-    position: relative;
-    left: 0px;
-    top:5px; 
     padding: 4px;
-    width: 300px;
+    width: 275px;
     height: 60px;
+    /* border-color: rgb(185, 153, 111);
     border-style: solid;
-    border-width: medium;
-    margin-top: 10px;
+    border-width: medium; */
+    margin-top:3px;
+    background-image: url("teamImages/scoreback.jpg");
+    background-position: center;
+    background-size: cover;
+
 
 }
 .dropdown {

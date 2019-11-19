@@ -7,7 +7,7 @@
         </head>
     <!--CURRENT DATE -->
     <body>
-        <div id="header">
+        <!-- <div id="header">
             <h1 id="date">
                <script>
                     var day = new Date();                            
@@ -16,7 +16,17 @@
                     document.getElementById("date").innerHTML = date; 
                 </script>
             </h1>
-        </div>
+        </div> -->
+        <div id="wrapper">
+                <script>
+                        var day = new Date();                            
+                        var date ="";
+                        date = day.getDate()+"/"+day.getMonth()+"/"+day.getFullYear(); 
+                        document.getElementById("date").innerHTML = date;
+                        </script> 
+            <h5 class="chrome">date</h5>
+            </div>
+          </div>
     </body>
 <div class="gameBox">
         <div id="homeTeam">

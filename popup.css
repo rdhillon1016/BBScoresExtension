@@ -1,5 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:900);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Candal);
+
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
+@import url(https://fonts.googleapis.com/css?family=Monoton);
+
+
+body { background: #000; color: #fff; position: relative;}
+
+.chrome {
+  position: relative;
+  background-image: -webkit-linear-gradient(#378DBC 0%, #B6E8F1 46%, #ffffff 50%, #32120E 54%, #FFC488 58%, #582C11 90%, #EC9B4E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 4px #f5f5f5;
+  font-size: 75px;
+  font-family: 'Titillium Web', sans-serif;
+  font-style: italic;
+  margin: 0;
+  line-height: 1;
+}
 body {
+    text-align: center;
     align-content: auto;
     background-image: url("teamImages/bballCourt.jpg");
     background-position: center;
@@ -10,6 +35,8 @@ body {
 }
 
 #header {
+    display: inline-block; 
+    align-content: center;
     border-radius: 1px;
     background-color: #1C1C1C;
     width: 250px;
@@ -20,7 +47,6 @@ body {
     border-width: thin;
     border-color: burlywood;
     font-size: small;
-    margin-bottom: 10px;
 }
 
 #date {
@@ -89,11 +115,8 @@ body {
     float: middle; 
     border-radius: 15px;
     padding: 4px;
-    width: 275px;
+    width: 300px;
     height: 60px;
-    /* border-color: rgb(185, 153, 111);
-    border-style: solid;
-    border-width: medium; */
     margin-top:3px;
     background-image: url("teamImages/scoreback.jpg");
     background-position: center;
